@@ -1,0 +1,94 @@
+.instrument-selector__list {
+  overflow: hidden scroll;
+  height: calc(100% - 58px);
+  padding: 16px;
+}
+
+.instrument-selector__title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 8px 16px;
+  border-bottom: 3px solid #444;
+}
+
+.instrument-selector__heading-text {
+  display: block;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  text-transform: uppercase;
+  padding: 8px 0;
+  margin: 0;
+  color: #ccc;
+}
+
+.instrument-selector__close {
+  display: block;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  color: #999;
+  cursor: pointer;
+  width: 32px;
+  padding: 0;
+}
+
+.instrument-selector__close::-moz-focus-inner {
+  border: 0;
+}
+
+.instrument-selector__close:hover {
+  color: #eee;
+}
+
+.instrument-selector__close:focus {
+  color: #eee;
+}
+
+.instrument-selector__close:active {
+  color: #c43e17;
+}
+
+.instrument-selector__tabs {
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  margin-bottom: 8px;
+}
+
+.instrument-selector__tab-button {
+  flex-grow: 1;
+  display: block;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  color: #bbb;
+  cursor: pointer;
+  padding: 16px;
+  background-color: #000;
+}
+
+.instrument-selector__tab-button::-moz-focus-inner {
+  border: 0;
+}
+
+.instrument-selector__tab-button:hover {
+  opacity: .8;
+}
+
+
+.instrument-selector__tab-button:active {
+  background-color: #c43e17;
+}
+
+.instrument-selector__tab-button--active {
+  background-color: #333;
+  color: #bbb;
+}

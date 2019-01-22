@@ -1,0 +1,33 @@
+.play-button {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  margin: 0 24px 0;
+  background-color: #ccc;
+  border: none;
+  border-radius: 50%;
+  height: 64px;
+  width: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #602d2a;
+}
+
+.play-button:focus {
+  background-color: #bbb;
+  border: 2px solid #999;
+}
+
+.play-button::-moz-focus-inner {
+  border: 0;
+}
+
+.play-button:hover {
+  background-color: #bbb;
+}
+
+.play-button:active {
+  background-color: #fa9d07;
+}

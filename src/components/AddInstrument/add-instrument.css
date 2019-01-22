@@ -1,0 +1,57 @@
+.add-instrument__container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.add-instrument {
+  width: 256px;
+  height: 300px;
+  padding: 40px 0px 14px 0;
+  margin: 0;
+}
+
+.add-instrument__add {
+  width: 100%;
+  height: 100%;
+  border: 10px dashed #c43e17;
+  border-radius: 14%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.add-instrument__button {
+  appearance: none;
+  border: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  border-radius: 11%;
+  background-color: transparent;
+  color: #c43e17;
+  width: 100%;
+  height: 100%;
+  outline: 0;
+  cursor: pointer;
+}
+
+.add-instrument__button:hover {
+  background-color: #27295f;
+}
+
+.add-instrument__button:focus {
+  border: 1px dotted #999;
+}
+
+.add-instrument__button:active {
+  background-color: #c43e17;
+  color: #222;
+}
+
+.add-instrument__text {
+  font-family: 'Orbitron', sans-serif;
+  padding: 32px;
+  font-size: 27px;
+  line-height: 52px;
+}

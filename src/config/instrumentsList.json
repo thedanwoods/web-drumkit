@@ -1,0 +1,581 @@
+{
+  "instruments": [
+    {
+      "name": "808-kick",
+      "displayName": "808 Kick",
+      "kit": "808",
+      "url": "/samples/808/kick-808.wav"
+    },
+    {
+      "name": "808-clap",
+      "displayName": "808 Clap",
+      "kit": "808",
+      "url": "/samples/808/clap-808.wav"
+    },
+    {
+      "name": "808-closed-hihat",
+      "displayName": "808 Hihat closed",
+      "kit": "808",
+      "url": "/samples/808/closed-hihat-808.wav"
+    },
+    {
+      "name": "808-open-hihat",
+      "displayName": "808 Hihat open",
+      "kit": "808",
+      "url": "/samples/808/open-hihat-808.wav"
+    },
+    {
+      "name": "808-bass",
+      "displayName": "808 Bass",
+      "kit": "808",
+      "url": "/samples/808/bass-808.wav"
+    },
+    {
+      "name": "808-cymbal",
+      "displayName": "808 Cymbal",
+      "kit": "808",
+      "url": "/samples/808/cymbal-808.wav"
+    },
+    {
+      "name": "808-snare",
+      "displayName": "808 Snare",
+      "kit": "808",
+      "url": "/samples/808/snare-808.wav"
+    },
+    {
+      "name": "808-tom",
+      "displayName": "808 Tom",
+      "kit": "808",
+      "url": "/samples/808/tom-808.wav"
+    },
+    {
+      "name": "808-clave",
+      "displayName": "808 Clave",
+      "kit": "808",
+      "url": "/samples/808/clave-808.wav"
+    },
+    {
+      "name": "808-cowbell",
+      "displayName": "808 Cowbell",
+      "kit": "808",
+      "url": "/samples/808/cowbell-808.wav"
+    },
+    {
+      "name": "808-maracas",
+      "displayName": "808 Maracas",
+      "kit": "808",
+      "url": "/samples/808/maracas-808.wav"
+    },
+    {
+      "name": "808-rimshot",
+      "displayName": "808 Rimshot",
+      "kit": "808",
+      "url": "/samples/808/rimshot-808.wav"
+    },
+    {
+      "name": "main-room-clap-01",
+      "kit": "Room kit",
+      "url": "/samples/main-room-kit/main-room-clap-01.wav",
+      "displayName": "Main Room Clap 01"
+    },
+    {
+      "name": "main-room-clap-02",
+      "kit": "Room kit 2",
+      "url": "/samples/main-room-kit/main-room-clap-02.wav",
+      "displayName": "Main Room Clap 02"
+    },
+    {
+      "name": "main-room-clap-03",
+      "kit": "Room kit 3",
+      "url": "/samples/main-room-kit/main-room-clap-03.wav",
+      "displayName": "Main Room Clap 03"
+    },
+    {
+      "name": "main-room-closed-hat-01",
+      "kit": "Room kit",
+      "url": "/samples/main-room-kit/main-room-closed-hat-01.wav",
+      "displayName": "Main Room Closed Hat 01"
+    },
+    {
+      "name": "main-room-closed-hat-02",
+      "kit": "Room kit 2",
+      "url": "/samples/main-room-kit/main-room-closed-hat-02.wav",
+      "displayName": "Main Room Closed Hat 02"
+    },
+    {
+      "name": "main-room-closed-hat-03",
+      "kit": "Room kit 3",
+      "url": "/samples/main-room-kit/main-room-closed-hat-03.wav",
+      "displayName": "Main Room Closed Hat 03"
+    },
+    {
+      "name": "main-room-closed-hat-04",
+      "kit": "",
+      "url": "/samples/main-room-kit/main-room-closed-hat-04.wav",
+      "displayName": "Main Room Closed Hat 04"
+    },
+    {
+      "name": "main-room-cymbal-01",
+      "kit": "Room kit",
+      "url": "/samples/main-room-kit/main-room-cymbal-01.wav",
+      "displayName": "Main Room Cymbal 01"
+    },
+    {
+      "name": "main-room-cymbal-02",
+      "kit": "Room kit 2",
+      "url": "/samples/main-room-kit/main-room-cymbal-02.wav",
+      "displayName": "Main Room Cymbal 02"
+    },
+    {
+      "name": "main-room-cymbal-03",
+      "kit": "Room kit 3",
+      "url": "/samples/main-room-kit/main-room-cymbal-03.wav",
+      "displayName": "Main Room Cymbal 03"
+    },
+    {
+      "name": "main-room-cymbal-04",
+      "kit": "",
+      "url": "/samples/main-room-kit/main-room-cymbal-04.wav",
+      "displayName": "Main Room Cymbal 04"
+    },
+    {
+      "name": "main-room-kick-01",
+      "kit": "Room kit",
+      "url": "/samples/main-room-kit/main-room-kick-01.wav",
+      "displayName": "Main Room Kick 01"
+    },
+    {
+      "name": "main-room-kick-02",
+      "kit": "Room kit 2",
+      "url": "/samples/main-room-kit/main-room-kick-02.wav",
+      "displayName": "Main Room Kick 02"
+    },
+    {
+      "name": "main-room-kick-03",
+      "kit": "Room kit 3",
+      "url": "/samples/main-room-kit/main-room-kick-03.wav",
+      "displayName": "Main Room Kick 03"
+    },
+    {
+      "name": "main-room-open-hat-01",
+      "kit": "Room kit",
+      "url": "/samples/main-room-kit/main-room-open-hat-01.wav",
+      "displayName": "Main Room Open Hat 01"
+    },
+    {
+      "name": "main-room-open-hat-02",
+      "kit": "Room kit 2",
+      "url": "/samples/main-room-kit/main-room-open-hat-02.wav",
+      "displayName": "Main Room Open Hat 02"
+    },
+    {
+      "name": "main-room-open-hat-03",
+      "kit": "Room kit 3",
+      "url": "/samples/main-room-kit/main-room-open-hat-03.wav",
+      "displayName": "Main Room Open Hat 03"
+    },
+    {
+      "name": "main-room-shaker-01",
+      "kit": "Room kit",
+      "url": "/samples/main-room-kit/main-room-shaker-01.wav",
+      "displayName": "Main Room Shaker 01"
+    },
+    {
+      "name": "main-room-shaker-02",
+      "kit": "Room kit 2",
+      "url": "/samples/main-room-kit/main-room-shaker-02.wav",
+      "displayName": "Main Room Shaker 02"
+    },
+    {
+      "name": "main-room-snare-01",
+      "kit": "Room kit",
+      "url": "/samples/main-room-kit/main-room-snare-01.wav",
+      "displayName": "Main Room Snare 01"
+    },
+    {
+      "name": "main-room-snare-02",
+      "kit": "Room kit 2",
+      "url": "/samples/main-room-kit/main-room-snare-02.wav",
+      "displayName": "Main Room Snare 02"
+    },
+    {
+      "name": "main-room-snare-03",
+      "kit": "Room kit 3",
+      "url": "/samples/main-room-kit/main-room-snare-03.wav",
+      "displayName": "Main Room Snare 03"
+    },
+    {
+      "name": "main-room-stacked-hit-01",
+      "kit": "Room kit",
+      "url": "/samples/main-room-kit/main-room-stacked-hit-01.wav",
+      "displayName": "Main Room Stacked Hit 01"
+    },
+    {
+      "name": "main-room-stacked-hit-02",
+      "kit": "Room kit 2",
+      "url": "/samples/main-room-kit/main-room-stacked-hit-02.wav",
+      "displayName": "Main Room Stacked Hit 02"
+    },
+    {
+      "name": "main-room-stacked-hit-03",
+      "kit": "Room kit 3",
+      "url": "/samples/main-room-kit/main-room-stacked-hit-03.wav",
+      "displayName": "Main Room Stacked Hit 03"
+    },
+    {
+      "name": "chart-clap-01",
+      "kit": "Chart kit",
+      "url": "/samples/chart-kit/chart-clap-01.wav",
+      "displayName": "Chart Clap 01"
+    },
+    {
+      "name": "chart-clap-02",
+      "kit": "Chart kit 2",
+      "url": "/samples/chart-kit/chart-clap-02.wav",
+      "displayName": "Chart Clap 02"
+    },
+    {
+      "name": "chart-clap-03",
+      "kit": "",
+      "url": "/samples/chart-kit/chart-clap-03.wav",
+      "displayName": "Chart Clap 03"
+    },
+    {
+      "name": "chart-clap-04",
+      "kit": "",
+      "url": "/samples/chart-kit/chart-clap-04.wav",
+      "displayName": "Chart Clap 04"
+    },
+    {
+      "name": "chart-closed-hat-01",
+      "kit": "Chart kit",
+      "url": "/samples/chart-kit/chart-closed-hat-01.wav",
+      "displayName": "Chart Closed Hat 01"
+    },
+    {
+      "name": "chart-closed-hat-02",
+      "kit": "Chart kit 2",
+      "url": "/samples/chart-kit/chart-closed-hat-02.wav",
+      "displayName": "Chart Closed Hat 02"
+    },
+    {
+      "name": "chart-closed-hat-03",
+      "kit": "",
+      "url": "/samples/chart-kit/chart-closed-hat-03.wav",
+      "displayName": "Chart Closed Hat 03"
+    },
+    {
+      "name": "chart-closed-hat-04",
+      "kit": "",
+      "url": "/samples/chart-kit/chart-closed-hat-04.wav",
+      "displayName": "Chart Closed Hat 04"
+    },
+    {
+      "name": "chart-cymbal-01",
+      "kit": "Chart kit",
+      "url": "/samples/chart-kit/chart-cymbal-01.wav",
+      "displayName": "Chart Cymbal 01"
+    },
+    {
+      "name": "chart-cymbal-02",
+      "kit": "Chart kit 2",
+      "url": "/samples/chart-kit/chart-cymbal-02.wav",
+      "displayName": "Chart Cymbal 02"
+    },
+    {
+      "name": "chart-kick-01",
+      "kit": "Chart kit",
+      "url": "/samples/chart-kit/chart-kick-01.wav",
+      "displayName": "Chart Kick 01"
+    },
+    {
+      "name": "chart-kick-02",
+      "kit": "Chart kit 2",
+      "url": "/samples/chart-kit/chart-kick-02.wav",
+      "displayName": "Chart Kick 02"
+    },
+    {
+      "name": "chart-kick-03",
+      "kit": "",
+      "url": "/samples/chart-kit/chart-kick-03.wav",
+      "displayName": "Chart Kick 03"
+    },
+    {
+      "name": "chart-kick-04",
+      "kit": "",
+      "url": "/samples/chart-kit/chart-kick-04.wav",
+      "displayName": "Chart Kick 04"
+    },
+    {
+      "name": "chart-open-hat-01",
+      "kit": "Chart kit",
+      "url": "/samples/chart-kit/chart-open-hat-01.wav",
+      "displayName": "Chart Open Hat 01"
+    },
+    {
+      "name": "chart-open-hat-02",
+      "kit": "Chart kit 2",
+      "url": "/samples/chart-kit/chart-open-hat-02.wav",
+      "displayName": "Chart Open Hat 02"
+    },
+    {
+      "name": "chart-open-hat-03",
+      "kit": "",
+      "url": "/samples/chart-kit/chart-open-hat-03.wav",
+      "displayName": "Chart Open Hat 03"
+    },
+    {
+      "name": "chart-open-hat-04",
+      "kit": "",
+      "url": "/samples/chart-kit/chart-open-hat-04.wav",
+      "displayName": "Chart Open Hat 04"
+    },
+    {
+      "name": "chart-rimshot-01",
+      "kit": "Chart kit",
+      "url": "/samples/chart-kit/chart-rimshot-01.wav",
+      "displayName": "Chart Rimshot 01"
+    },
+    {
+      "name": "chart-rimshot-02",
+      "kit": "Chart kit 2",
+      "url": "/samples/chart-kit/chart-rimshot-02.wav",
+      "displayName": "Chart Rimshot 02"
+    },
+    {
+      "name": "chart-shaker-01",
+      "kit": "Chart kit",
+      "url": "/samples/chart-kit/chart-shaker-01.wav",
+      "displayName": "Chart Shaker 01"
+    },
+    {
+      "name": "chart-shaker-02",
+      "kit": "Chart kit 2",
+      "url": "/samples/chart-kit/chart-shaker-02.wav",
+      "displayName": "Chart Shaker 02"
+    },
+    {
+      "name": "chart-snare-01",
+      "kit": "Chart kit",
+      "url": "/samples/chart-kit/chart-snare-01.wav",
+      "displayName": "Chart Snare 01"
+    },
+    {
+      "name": "chart-snare-02",
+      "kit": "Chart kit 2",
+      "url": "/samples/chart-kit/chart-snare-02.wav",
+      "displayName": "Chart Snare 02"
+    },
+    {
+      "name": "chart-snare-03",
+      "kit": "",
+      "url": "/samples/chart-kit/chart-snare-03.wav",
+      "displayName": "Chart Snare 03"
+    },
+    {
+      "name": "chart-snare-04",
+      "kit": "",
+      "url": "/samples/chart-kit/chart-snare-04.wav",
+      "displayName": "Chart Snare 04"
+    },
+    {
+      "name": "chart-tamb-01",
+      "kit": "Chart kit",
+      "url": "/samples/chart-kit/chart-tamb-01.wav",
+      "displayName": "Chart Tamb 01"
+    },
+    {
+      "name": "chart-tamb-02",
+      "kit": "Chart kit 2",
+      "url": "/samples/chart-kit/chart-tamb-02.wav",
+      "displayName": "Chart Tamb 02"
+    },
+
+    {
+      "name": "vintage-clap-01",
+      "kit": "Vintage kit",
+      "url": "/samples/vintage-kit/vintage-clap-01.wav",
+      "displayName": "Vintage Clap 01"
+    },
+    {
+      "name": "vintage-clap-02",
+      "kit": "Vintage kit 2",
+      "url": "/samples/vintage-kit/vintage-clap-02.wav",
+      "displayName": "Vintage Clap 02"
+    },
+    {
+      "name": "vintage-clave",
+      "kit": "Vintage kit",
+      "url": "/samples/vintage-kit/vintage-clave.wav",
+      "displayName": "Vintage Clave"
+    },
+    {
+      "name": "vintage-closed-hat-01",
+      "kit": "Vintage kit",
+      "url": "/samples/vintage-kit/vintage-closed-hat-01.wav",
+      "displayName": "Vintage Closed Hat 01"
+    },
+    {
+      "name": "vintage-closed-hat-02",
+      "kit": "Vintage kit 2",
+      "url": "/samples/vintage-kit/vintage-closed-hat-02.wav",
+      "displayName": "Vintage Closed Hat 02"
+    },
+    {
+      "name": "vintage-closed-hat-03",
+      "kit": "",
+      "url": "/samples/vintage-kit/vintage-closed-hat-03.wav",
+      "displayName": "Vintage Closed Hat 03"
+    },
+    {
+      "name": "vintage-closed-hat-04",
+      "kit": "",
+      "url": "/samples/vintage-kit/vintage-closed-hat-04.wav",
+      "displayName": "Vintage Closed Hat 04"
+    },
+    {
+      "name": "vintage-cymbal-01",
+      "kit": "Vintage kit",
+      "url": "/samples/vintage-kit/vintage-cymbal-01.wav",
+      "displayName": "Vintage Cymbal 01"
+    },
+    {
+      "name": "vintage-cymbal-02",
+      "kit": "Vintage kit 2",
+      "url": "/samples/vintage-kit/vintage-cymbal-02.wav",
+      "displayName": "Vintage Cymbal 02"
+    },
+    {
+      "name": "vintage-cymbal-03",
+      "kit": "",
+      "url": "/samples/vintage-kit/vintage-cymbal-03.wav",
+      "displayName": "Vintage Cymbal 03"
+    },
+    {
+      "name": "vintage-kick-01",
+      "kit": "Vintage kit",
+      "url": "/samples/vintage-kit/vintage-kick-01.wav",
+      "displayName": "Vintage Kick 01"
+    },
+    {
+      "name": "vintage-kick-02",
+      "kit": "Vintage kit 2",
+      "url": "/samples/vintage-kit/vintage-kick-02.wav",
+      "displayName": "Vintage Kick 02"
+    },
+    {
+      "name": "vintage-kick-03",
+      "kit": "",
+      "url": "/samples/vintage-kit/vintage-kick-03.wav",
+      "displayName": "Vintage Kick 03"
+    },
+    {
+      "name": "vintage-kick-04",
+      "kit": "",
+      "url": "/samples/vintage-kit/vintage-kick-04.wav",
+      "displayName": "Vintage Kick 04"
+    },
+    {
+      "name": "vintage-open-hat-01",
+      "kit": "Vintage kit",
+      "url": "/samples/vintage-kit/vintage-open-hat-01.wav",
+      "displayName": "Vintage Open Hat 01"
+    },
+    {
+      "name": "vintage-open-hat-02",
+      "kit": "Vintage kit 2",
+      "url": "/samples/vintage-kit/vintage-open-hat-02.wav",
+      "displayName": "Vintage Open Hat 02"
+    },
+    {
+      "name": "vintage-open-hat-03",
+      "kit": "",
+      "url": "/samples/vintage-kit/vintage-open-hat-03.wav",
+      "displayName": "Vintage Open Hat 03"
+    },
+    {
+      "name": "vintage-open-hat-04",
+      "kit": "",
+      "url": "/samples/vintage-kit/vintage-open-hat-04.wav",
+      "displayName": "Vintage Open Hat 04"
+    },
+    {
+      "name": "vintage-perc-01",
+      "kit": "Vintage kit",
+      "url": "/samples/vintage-kit/vintage-perc-01.wav",
+      "displayName": "Vintage Perc 01"
+    },
+    {
+      "name": "vintage-perc-02",
+      "kit": "Vintage kit 2",
+      "url": "/samples/vintage-kit/vintage-perc-02.wav",
+      "displayName": "Vintage Perc 02"
+    },
+    {
+      "name": "vintage-perc-03",
+      "kit": "",
+      "url": "/samples/vintage-kit/vintage-perc-03.wav",
+      "displayName": "Vintage Perc 03"
+    },
+    {
+      "name": "vintage-perc-04",
+      "kit": "",
+      "url": "/samples/vintage-kit/vintage-perc-04.wav",
+      "displayName": "Vintage Perc 04"
+    },
+    {
+      "name": "vintage-rim-01",
+      "kit": "Vintage kit",
+      "url": "/samples/vintage-kit/vintage-rim-01.wav",
+      "displayName": "Vintage Rim 01"
+    },
+    {
+      "name": "vintage-rim-02",
+      "kit": "Vintage kit 2",
+      "url": "/samples/vintage-kit/vintage-rim-02.wav",
+      "displayName": "Vintage Rim 02"
+    },
+    {
+      "name": "vintage-snare-01",
+      "kit": "Vintage kit",
+      "url": "/samples/vintage-kit/vintage-snare-01.wav",
+      "displayName": "Vintage Snare 01"
+    },
+    {
+      "name": "vintage-snare-02",
+      "kit": "Vintage kit 2",
+      "url": "/samples/vintage-kit/vintage-snare-02.wav",
+      "displayName": "Vintage Snare 02"
+    },
+    {
+      "name": "vintage-snare-03",
+      "kit": "Vintage kit",
+      "url": "/samples/vintage-kit/vintage-snare-03.wav",
+      "displayName": "Vintage Snare 03"
+    },
+    {
+      "name": "vintage-snare-04",
+      "kit": "",
+      "url": "/samples/vintage-kit/vintage-snare-04.wav",
+      "displayName": "Vintage Snare 04"
+    },
+    {
+      "name": "vintage-tom-01",
+      "kit": "Vintage kit",
+      "url": "/samples/vintage-kit/vintage-tom-01.wav",
+      "displayName": "Vintage Tom 01"
+    },
+    {
+      "name": "vintage-tom-02",
+      "kit": "Vintage kit 2",
+      "url": "/samples/vintage-kit/vintage-tom-02.wav",
+      "displayName": "Vintage Tom 02"
+    },
+    {
+      "name": "vintage-tom-03",
+      "kit": "",
+      "url": "/samples/vintage-kit/vintage-tom-03.wav",
+      "displayName": "Vintage Tom 03"
+    }
+  ]
+}

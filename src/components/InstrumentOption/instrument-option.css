@@ -1,0 +1,40 @@
+.instrument-option {
+  border-top: 1px solid #444;
+  padding: 0;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 48px;
+}
+
+.instrument-option:hover {
+  background-color: #555;
+}
+
+.instrument-option__button {
+  display: block;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: #ccc;
+  padding: 8px 8px;
+}
+
+.instrument-option__button:hover {
+  color: #eee;
+}
+
+.instrument-option__name {
+  height: 100%;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+}
+
+
