@@ -10,14 +10,11 @@ import Footer from './components/Footer';
 
 import './App.css';
 
-import instrumentsJson from './config/instrumentsList.json';
+import fetchInstruments from './utils/instrumentsList';
+
+const instrumentsList = fetchInstruments();
 
 Modal.setAppElement('#root');
-
-const instrumentsList = instrumentsJson.instruments.map(instrument => ({
-  ...instrument,
-  url: `${process.env.PUBLIC_URL}${instrument.url}`,
-}));
 
 const App = () => {
   const [addInstrumentOpen, setAddInstrumentOpen] = useState(false);

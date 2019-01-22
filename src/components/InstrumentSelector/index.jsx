@@ -4,9 +4,11 @@ import Modal from 'react-modal';
 import InstrumentOption from '../InstrumentOption';
 import KitOption from '../KitOption';
 
-import instruments from '../../config/instrumentsList.json';
+import fetchInstruments from '../../utils/instrumentsList';
 
 import './instrument-selector.css';
+
+const instruments = fetchInstruments();
 
 const modalStyles = {
   content: {
@@ -67,7 +69,7 @@ const InstrumentSelector = ({ add, cancel }) => {
       </div>
       <div className="instrument-selector__list">
         {tab === 'kits' &&
-          instruments.instruments
+          instruments
             .filter(
               (item, index, self) =>
                 self.findIndex(t => t.kit === item.kit) === index,
@@ -81,7 +83,7 @@ const InstrumentSelector = ({ add, cancel }) => {
               />
             ))}
         {tab === 'instruments' &&
-          instruments.instruments.map(instrument => (
+          instruments.map(instrument => (
             <InstrumentOption
               onAdd={() => add({ instrument: instrument.name })}
               displayName={instrument.displayName}
