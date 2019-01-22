@@ -1,13 +1,13 @@
 {
   "main.css": "/web-drumkit/static/css/main.f7d57a1c.chunk.css",
-  "main.js": "/web-drumkit/static/js/main.fd38d7f8.chunk.js",
-  "main.js.map": "/web-drumkit/static/js/main.fd38d7f8.chunk.js.map",
+  "main.js": "/web-drumkit/static/js/main.8c14d7b4.chunk.js",
+  "main.js.map": "/web-drumkit/static/js/main.8c14d7b4.chunk.js.map",
   "static/js/1.9f460dbd.chunk.js": "/web-drumkit/static/js/1.9f460dbd.chunk.js",
   "static/js/1.9f460dbd.chunk.js.map": "/web-drumkit/static/js/1.9f460dbd.chunk.js.map",
   "runtime~main.js": "/web-drumkit/static/js/runtime~main.15d16d6f.js",
   "runtime~main.js.map": "/web-drumkit/static/js/runtime~main.15d16d6f.js.map",
   "static/css/main.f7d57a1c.chunk.css.map": "/web-drumkit/static/css/main.f7d57a1c.chunk.css.map",
   "index.html": "/web-drumkit/index.html",
-  "precache-manifest.e7d791d66248de6af51d41d6148eadde.js": "/web-drumkit/precache-manifest.e7d791d66248de6af51d41d6148eadde.js",
+  "precache-manifest.c4cd3189f9ef1d2fc46c049a5aba8a76.js": "/web-drumkit/precache-manifest.c4cd3189f9ef1d2fc46c049a5aba8a76.js",
   "service-worker.js": "/web-drumkit/service-worker.js"
 }
