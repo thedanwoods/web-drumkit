@@ -18,7 +18,8 @@ const modalStyles = {
     backgroundColor: '#333',
     color: '#eee',
     border: '3px solid #444',
-    overflow: 'hidden',
+    overflow: 'auto',
+    maxHeight: '95vh',
   },
   overlay: {
     backgroundColor: 'rgba(32, 32, 32, 0.75)',
