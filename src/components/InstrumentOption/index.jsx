@@ -35,6 +35,7 @@ const InstrumentOption = ({ displayName, name, url, onAdd }) => {
         className="instrument-option__button"
         type="button"
         onClick={handlePlay}
+        disabled={playing === 'cued'}
       >
         {playing === 'idle' && <MdPlayArrow size={30} />}
         {playing === 'cued' && <CirclesSpinner size={30} />}
