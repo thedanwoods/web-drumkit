@@ -5,7 +5,7 @@ export const updateTempo = tempo => {
 };
 
 export const startPlaying = () => {
-  Tone.Transport.start();
+  Tone.Transport.start('+0.1');
 };
 
 export const stopPlaying = () => {
