@@ -23,6 +23,9 @@ export const drumPlayers = new Tone.Players({}).toMaster();
 // Fire a sound from the sample player
 export const playSound = name => drumPlayers.get(name).start();
 
+/*  The callback should not do anything expensive, especially DOM manipulations
+ * - see https://github.com/Tonejs/Tone.js/wiki/Performance#syncing-visuals
+ */
 export const sequence = (sound, callback = () => {}) =>
   new Tone.Sequence(
     (time, note) => {
