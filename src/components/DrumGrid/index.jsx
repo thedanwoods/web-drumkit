@@ -4,6 +4,8 @@
 import React, { useState, useEffect } from 'react';
 import { sequence, drumPlayers, getTransportPosition } from '../../sequencer';
 
+import CirclesSpinner from '../CirclesSpinner';
+
 import './drum-grid.css';
 
 // Single pad
@@ -78,7 +80,6 @@ const DrumGrid = ({ sound, remove }) => {
     <div className="drum-grid">
       <div className="drum-grid__title">
         <div>{sound.displayName.toUpperCase()}</div>
-        {!loaded && <div>Loading...</div>}
         <div>
           <button
             className="drum-grid__remove"
@@ -89,18 +90,23 @@ const DrumGrid = ({ sound, remove }) => {
           </button>
         </div>
       </div>
-
-      {loaded && pads.map((pad, index) => (
-        <DrumPad
-          name={index + 1}
-          key={index}
-          setPad={value => {
-            setSinglePad(index, value, pads, setPads);
-            seq.at(index, { notes: value === true ? [1] : [] });
-          }}
-          cursor={position === index}
-        />
-      ))}
+      {!loaded && (
+        <div className="drum-grid__spinner-container">
+          <CirclesSpinner size={128} />
+        </div>
+      )}
+      {loaded &&
+        pads.map((pad, index) => (
+          <DrumPad
+            name={index + 1}
+            key={index}
+            setPad={value => {
+              setSinglePad(index, value, pads, setPads);
+              seq.at(index, { notes: value === true ? [1] : [] });
+            }}
+            cursor={position === index}
+          />
+        ))}
     </div>
   );
 };

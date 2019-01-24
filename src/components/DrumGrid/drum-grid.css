@@ -44,6 +44,14 @@
   color: #eee;
 }
 
+.drum-grid__spinner-container {
+  width: 236px;
+  height: 236px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
 .pad__cover {
   width: 64px;
   height: 64px;
