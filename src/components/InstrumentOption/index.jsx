@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { MdPlayArrow } from 'react-icons/md';
 
-import Spinner from '../Spinner';
+import CirclesSpinner from '../CirclesSpinner';
 
 import { drumPlayers, playSound } from '../../sequencer';
 
@@ -37,7 +37,7 @@ const InstrumentOption = ({ displayName, name, url, onAdd }) => {
         onClick={handlePlay}
       >
         {playing === 'idle' && <MdPlayArrow size={30} />}
-        {playing === 'cued' && <Spinner />}
+        {playing === 'cued' && <CirclesSpinner size={30} />}
       </button>
       <button
         type="button"
